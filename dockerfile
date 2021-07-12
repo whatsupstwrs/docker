@@ -1,6 +1,6 @@
 FROM centos
 
-RUN sudo yum install -y httpd
+RUN yum install -y httpd
 COPY index.html /var/www/html/
 EXPOSE 80
 
